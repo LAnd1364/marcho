@@ -24,11 +24,21 @@ figure,
 figcaption,
 blockquote,
 dl,
-dd {
+dd,
+input,
+button,
+textarea,
+select {
    margin: 0;
+   background-color: transparent;
+   border: none;
 }
 ul[class],
-ol[class] {
+ol[class],
+input,
+button,
+textarea,
+select {
    padding: 0;
 }
 ul[class] {
