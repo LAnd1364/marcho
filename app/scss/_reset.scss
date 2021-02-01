@@ -53,7 +53,11 @@ button,
 textarea,
 select {
    font: inherit;
+   resize: none;
 }
 a {
    text-decoration: none;
+}
+button {
+   cursor: pointer;
 }
